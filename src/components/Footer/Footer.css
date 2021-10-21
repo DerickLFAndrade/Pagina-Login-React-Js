@@ -1,0 +1,16 @@
+footer {
+   
+    bottom: 0;
+    width: 100vw;
+   background: rgba(103, 108, 180, 0.2);
+   height: 50px;
+    display: flex;
+    align-items: center;
+}
+.li-f {
+  
+    width: 95vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,62 @@
+.nav-bar{
+    top: 0;
+
+    position: fixed;
+   display: flex;
+   
+    width: 100vw;
+     
+  
+   background: white;
+   height: 75px;
+}
+.list-n {
+    display: flex;
+    justify-content: flex-end;
+    width:75vw;
+    align-items: center;
+}
+.ls {
+     margin-left: 40px;
+    list-style-type: none;
+    
+}
+.logo {
+    width: 100px;
+    margin-left: 5vw;
+}
+.login:hover {
+   box-shadow: 0px 0px 2px 2px rgb(63, 61, 61);
+   background: rgba(64, 53, 158, 0.9);
+    height: 32px;
+    width: 102px;
+    font-size: 15px;
+}
+.login {
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(18, 11, 85);
+    color: white;
+    font-weight: bold;
+}
+.cadastro:hover {
+    box-shadow: 0px 0px 2px 2px rgb(63, 61, 61);
+    background: rgba(64, 53, 158, 0.9);
+    height: 32px;
+    width: 102px;
+    font-size: 15px;
+}
+.cadastro {
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    
+  background: rgb(18, 11, 85);
+    color: white;
+    font-weight: bold;
+}
