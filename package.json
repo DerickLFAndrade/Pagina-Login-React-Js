@@ -1,7 +1,7 @@
 {
   "name": "teste",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "Teste/",
   "private": true,
   "dependencies": {
     "cra-template": "1.1.2",
