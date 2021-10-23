@@ -7,6 +7,10 @@
     height: 100vh;
     
 } 
+.msg-b {
+    color: rgb(102, 101, 101);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .textos-c {
     display: flex;
     justify-content: start;
