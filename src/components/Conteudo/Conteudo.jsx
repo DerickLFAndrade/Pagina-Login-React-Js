@@ -2,7 +2,6 @@ import React from 'react'
 import './Conteudo.css'
 import icolog from './user-ico.ico'
 import keylog from './key-ico.ico'
-import Header from '../Header/Header'
 import { Link } from 'react-router-dom'
 export default function Conteudo() {
         
