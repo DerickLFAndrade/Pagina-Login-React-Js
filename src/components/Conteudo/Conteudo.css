@@ -40,7 +40,7 @@
     border-bottom: 2px solid gray;
 }
 .inp {
-  
+    position: relative;
     background: none;
     width: 255px;
     height: 25px;
@@ -48,6 +48,23 @@
     outline: 0;
     text-indent: 10px;
   
+}
+.inp-p.input {
+   position: relative;
+
+   
+}
+input ~ label {
+    position: absolute;
+   margin-top: 0px;
+   margin-left: -170px;
+color: #808080;
+
+    transition:  .4s;
+}
+input:focus ~ label,
+input:valid ~label {
+    transform: translateY(-24px) ;
 }
 
 .ico-log {
@@ -96,6 +113,9 @@
 }
 
 .bot-e-s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     border-radius: 5px;
     height: 30px;

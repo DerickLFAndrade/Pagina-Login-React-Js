@@ -14,18 +14,21 @@ export default function Conteudo() {
                             <form action="">
                                 <span className="inp-p">
                                     <img className="ico-log" src={icolog} />
-                                    <input type="text" className="inp" placeholder="Digite seu Email ou CPF Cadastrado" />
+                                    <input type="text" className="inp" required />
+                                    <label htmlFor="inp" >Email</label>
                                 </span>
                                 <span className="inp-s">
                                     <img className="ico-log" src={keylog} />
-                                    <input type="text" className="inp" placeholder="Digite sua senha" />
-                                
+                                    <input type="text" className="inp" placeholder="Digite sua senha" required />
+                                   
+                                </span>
+
+                                <span className="cont-bot">
+                                    <button className="bot-log ">Entrar</button>
+                                    <a className="bot-e-s">Esqueci a senha</a>
                                 </span>
                             </form>
-                            <span className="cont-bot">
-                                <Link to="/teste"><button className="bot-log ">Entrar</button></Link>
-                                <button className="bot-e-s">Esqueci a senha</button>
-                            </span>
+                           
                         </span>
                     </div>
                 </section>
